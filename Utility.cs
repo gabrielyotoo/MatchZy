@@ -788,7 +788,7 @@ namespace MatchZy
             }
             if (showCreditsOnMatchStart.Value)
             {
-                Server.PrintToChatAll($"{chatPrefix} {ChatColors.Green}MatchZy{ChatColors.Default} Plugin by {ChatColors.Green}WD-{ChatColors.Default}");
+                Server.PrintToChatAll($"{chatPrefix} {ChatColors.Default} Plugin by {ChatColors.Green}WD-{ChatColors.Default} | Modded by {ChatColors.DarkRed} yoto{ChatColors.Default}");
             }
             if (matchStartMessage.Value.Trim() != "" && matchStartMessage.Value.Trim() != "\"\"")
             {
